@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_09f73cde980d9979988cee577e691d90 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_09f73cde980d9979988cee577e691d90" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_09f73cde980d9979988cee577e691d90 = L.map(
+                "map_09f73cde980d9979988cee577e691d90",
+                {
+                    center: [50.9375, 6.9603],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2542448c52b01bdf0305652ccc7fc27 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+            var marker_5718f1a64d0c9ae1e692d29b8b95bd05 = L.marker(
+                [50.9422, 6.9583],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_b754103f998b5a04bd4b24ce05680396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc9106740bc183f267fa73df6e3038b7 = $(`<div id="html_bc9106740bc183f267fa73df6e3038b7" style="width: 100.0%; height: 100.0%;">Köln Hauptbahnhof Zentraler Bahnhof</div>`)[0];
+            popup_b754103f998b5a04bd4b24ce05680396.setContent(html_bc9106740bc183f267fa73df6e3038b7);
+        
+
+        marker_5718f1a64d0c9ae1e692d29b8b95bd05.bindPopup(popup_b754103f998b5a04bd4b24ce05680396)
+        ;
+
+        
+    
+    
+            marker_5718f1a64d0c9ae1e692d29b8b95bd05.bindTooltip(
+                `<div>
+                     Köln Hauptbahnhof
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec247aba876fead305a1a7d688752a09 = L.marker(
+                [50.932, 6.9639],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_6b7803a0c8013926294b9258f63a911d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a96698b55e933aff166d00992de873 = $(`<div id="html_70a96698b55e933aff166d00992de873" style="width: 100.0%; height: 100.0%;">Schokoladenmuseum Beliebtes Museum am Rhein</div>`)[0];
+            popup_6b7803a0c8013926294b9258f63a911d.setContent(html_70a96698b55e933aff166d00992de873);
+        
+
+        marker_ec247aba876fead305a1a7d688752a09.bindPopup(popup_6b7803a0c8013926294b9258f63a911d)
+        ;
+
+        
+    
+    
+            marker_ec247aba876fead305a1a7d688752a09.bindTooltip(
+                `<div>
+                     Schokoladenmuseum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8115617f637810e85bec6d533535d658 = L.marker(
+                [50.9371, 6.9556],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_a6e5b613c25fb0ee8bec0e3b64a80060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d210052247c6440c51311ab4f30c07c8 = $(`<div id="html_d210052247c6440c51311ab4f30c07c8" style="width: 100.0%; height: 100.0%;">Saturn Köln City Großer Elektronikmarkt</div>`)[0];
+            popup_a6e5b613c25fb0ee8bec0e3b64a80060.setContent(html_d210052247c6440c51311ab4f30c07c8);
+        
+
+        marker_8115617f637810e85bec6d533535d658.bindPopup(popup_a6e5b613c25fb0ee8bec0e3b64a80060)
+        ;
+
+        
+    
+    
+            marker_8115617f637810e85bec6d533535d658.bindTooltip(
+                `<div>
+                     Saturn Köln City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d251eb575dce0903ea99603e63ecdffb = L.marker(
+                [50.9364, 6.9519],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_8efdafdc4d027952c93194bc2ac13baa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69fd1cf297ee4bfdde55e26b5cffa865 = $(`<div id="html_69fd1cf297ee4bfdde55e26b5cffa865" style="width: 100.0%; height: 100.0%;">Apple Store Apple Store an der Schildergasse</div>`)[0];
+            popup_8efdafdc4d027952c93194bc2ac13baa.setContent(html_69fd1cf297ee4bfdde55e26b5cffa865);
+        
+
+        marker_d251eb575dce0903ea99603e63ecdffb.bindPopup(popup_8efdafdc4d027952c93194bc2ac13baa)
+        ;
+
+        
+    
+    
+            marker_d251eb575dce0903ea99603e63ecdffb.bindTooltip(
+                `<div>
+                     Apple Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_213e3be1e538c5a8c3ed9bddae99addc = L.marker(
+                [50.9345, 6.9482],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_8e4dc2a82d6adef6607e0819952c9186 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c59835b4d77e173af810e19db05be9 = $(`<div id="html_84c59835b4d77e173af810e19db05be9" style="width: 100.0%; height: 100.0%;">Neumarkt Galerie Einkaufszentrum</div>`)[0];
+            popup_8e4dc2a82d6adef6607e0819952c9186.setContent(html_84c59835b4d77e173af810e19db05be9);
+        
+
+        marker_213e3be1e538c5a8c3ed9bddae99addc.bindPopup(popup_8e4dc2a82d6adef6607e0819952c9186)
+        ;
+
+        
+    
+    
+            marker_213e3be1e538c5a8c3ed9bddae99addc.bindTooltip(
+                `<div>
+                     Neumarkt Galerie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e8fb195641662ffa27cfa7c20851cb2 = L.marker(
+                [50.9355, 6.9493],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_8f5cdd06f5a272414bc8da5dd47b0a34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2998e864e26e1d72f8cfa7b1ad194a = $(`<div id="html_3a2998e864e26e1d72f8cfa7b1ad194a" style="width: 100.0%; height: 100.0%;">Globetrotter Köln Outdoor-Ausrüstung</div>`)[0];
+            popup_8f5cdd06f5a272414bc8da5dd47b0a34.setContent(html_3a2998e864e26e1d72f8cfa7b1ad194a);
+        
+
+        marker_9e8fb195641662ffa27cfa7c20851cb2.bindPopup(popup_8f5cdd06f5a272414bc8da5dd47b0a34)
+        ;
+
+        
+    
+    
+            marker_9e8fb195641662ffa27cfa7c20851cb2.bindTooltip(
+                `<div>
+                     Globetrotter Köln
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab45f2a13212939a3421561d61455348 = L.marker(
+                [50.9378, 6.9747],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_962414014cd48267753765ab0c5e2294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d04c5578c106335361abcab520c5e80 = $(`<div id="html_1d04c5578c106335361abcab520c5e80" style="width: 100.0%; height: 100.0%;">Rheinboulevard Promenade mit Dom-Blick</div>`)[0];
+            popup_962414014cd48267753765ab0c5e2294.setContent(html_1d04c5578c106335361abcab520c5e80);
+        
+
+        marker_ab45f2a13212939a3421561d61455348.bindPopup(popup_962414014cd48267753765ab0c5e2294)
+        ;
+
+        
+    
+    
+            marker_ab45f2a13212939a3421561d61455348.bindTooltip(
+                `<div>
+                     Rheinboulevard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d109d6fda54dc8617df016a0bb006df = L.marker(
+                [50.9463, 6.9807],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_c0f1f3428fec666c21590964aec0f5f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93d8426549204041aca6f5839ac61f3f = $(`<div id="html_93d8426549204041aca6f5839ac61f3f" style="width: 100.0%; height: 100.0%;">Rheinpark Großer Park am Rhein</div>`)[0];
+            popup_c0f1f3428fec666c21590964aec0f5f5.setContent(html_93d8426549204041aca6f5839ac61f3f);
+        
+
+        marker_6d109d6fda54dc8617df016a0bb006df.bindPopup(popup_c0f1f3428fec666c21590964aec0f5f5)
+        ;
+
+        
+    
+    
+            marker_6d109d6fda54dc8617df016a0bb006df.bindTooltip(
+                `<div>
+                     Rheinpark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a423e665fd6e10966c743e431dfee8 = L.marker(
+                [50.8875, 6.9739],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_0e9fdc031680e3381aedc44e68ffeba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3910758f54197ca5b1954402135a723 = $(`<div id="html_a3910758f54197ca5b1954402135a723" style="width: 100.0%; height: 100.0%;">Rodenkirchener Rheinufer Ufer mit Sandstrand</div>`)[0];
+            popup_0e9fdc031680e3381aedc44e68ffeba6.setContent(html_a3910758f54197ca5b1954402135a723);
+        
+
+        marker_e2a423e665fd6e10966c743e431dfee8.bindPopup(popup_0e9fdc031680e3381aedc44e68ffeba6)
+        ;
+
+        
+    
+    
+            marker_e2a423e665fd6e10966c743e431dfee8.bindTooltip(
+                `<div>
+                     Rodenkirchener Rheinufer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_003d3c97f0e4255bcaa76a1995b6dc54 = L.marker(
+                [50.9183, 6.9812],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_7a80b66e4202d7605deb65ca484ad984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bad0ee4470c4590978d84ad3d2d67133 = $(`<div id="html_bad0ee4470c4590978d84ad3d2d67133" style="width: 100.0%; height: 100.0%;">Poller Wiesen Freizeitwiese am Rhein</div>`)[0];
+            popup_7a80b66e4202d7605deb65ca484ad984.setContent(html_bad0ee4470c4590978d84ad3d2d67133);
+        
+
+        marker_003d3c97f0e4255bcaa76a1995b6dc54.bindPopup(popup_7a80b66e4202d7605deb65ca484ad984)
+        ;
+
+        
+    
+    
+            marker_003d3c97f0e4255bcaa76a1995b6dc54.bindTooltip(
+                `<div>
+                     Poller Wiesen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cc6687fbddda1fa97a6e4dcd046d320 = L.marker(
+                [50.9995, 6.9998],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_a01e7c90ff34bb3bf340b2453893c975 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cb72e46178f59b2a7256444dc3b7acb = $(`<div id="html_1cb72e46178f59b2a7256444dc3b7acb" style="width: 100.0%; height: 100.0%;">Flittarder Rheinaue Naturschutzgebiet</div>`)[0];
+            popup_a01e7c90ff34bb3bf340b2453893c975.setContent(html_1cb72e46178f59b2a7256444dc3b7acb);
+        
+
+        marker_1cc6687fbddda1fa97a6e4dcd046d320.bindPopup(popup_a01e7c90ff34bb3bf340b2453893c975)
+        ;
+
+        
+    
+    
+            marker_1cc6687fbddda1fa97a6e4dcd046d320.bindTooltip(
+                `<div>
+                     Flittarder Rheinaue
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a969b073a2566b1ed742471c6d397f3 = L.marker(
+                [50.9974, 6.9997],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_cf5b9547895a3ead72dcefdd58af1f2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c97cf1625f2ba5fae88e755932a198 = $(`<div id="html_77c97cf1625f2ba5fae88e755932a198" style="width: 100.0%; height: 100.0%;">Schlosspark Stammheim Historischer Park</div>`)[0];
+            popup_cf5b9547895a3ead72dcefdd58af1f2b.setContent(html_77c97cf1625f2ba5fae88e755932a198);
+        
+
+        marker_1a969b073a2566b1ed742471c6d397f3.bindPopup(popup_cf5b9547895a3ead72dcefdd58af1f2b)
+        ;
+
+        
+    
+    
+            marker_1a969b073a2566b1ed742471c6d397f3.bindTooltip(
+                `<div>
+                     Schlosspark Stammheim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9830231eb7d31cbc16bfd7de803f0b12 = L.marker(
+                [50.9478, 6.98],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_d1dcb4a10dc0f60761a6b75082f60f30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_209ed7336c0ae75e51b1197fb33bab2c = $(`<div id="html_209ed7336c0ae75e51b1197fb33bab2c" style="width: 100.0%; height: 100.0%;">Oper Köln (StaatenHaus) Interimsspielstätte der Oper</div>`)[0];
+            popup_d1dcb4a10dc0f60761a6b75082f60f30.setContent(html_209ed7336c0ae75e51b1197fb33bab2c);
+        
+
+        marker_9830231eb7d31cbc16bfd7de803f0b12.bindPopup(popup_d1dcb4a10dc0f60761a6b75082f60f30)
+        ;
+
+        
+    
+    
+            marker_9830231eb7d31cbc16bfd7de803f0b12.bindTooltip(
+                `<div>
+                     Oper Köln (StaatenHaus)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff5bb979b00dc008132e8d420b92e0bf = L.marker(
+                [50.9382, 6.9505],
+                {}
+            ).addTo(map_09f73cde980d9979988cee577e691d90);
+        
+    
+        var popup_e7d1d99fde04f09770f599d849a5e6cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d02b1be2a6ce28a8c716eb414c75434 = $(`<div id="html_3d02b1be2a6ce28a8c716eb414c75434" style="width: 100.0%; height: 100.0%;">Opern Passagen Einkaufspassage an der Oper</div>`)[0];
+            popup_e7d1d99fde04f09770f599d849a5e6cf.setContent(html_3d02b1be2a6ce28a8c716eb414c75434);
+        
+
+        marker_ff5bb979b00dc008132e8d420b92e0bf.bindPopup(popup_e7d1d99fde04f09770f599d849a5e6cf)
+        ;
+
+        
+    
+    
+            marker_ff5bb979b00dc008132e8d420b92e0bf.bindTooltip(
+                `<div>
+                     Opern Passagen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
